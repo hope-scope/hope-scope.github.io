@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full Width Carousel</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .carousel-item {
+      height: 300px; /* Full height */
+    }
+    .carousel-item img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+    .navbar {
+      margin-bottom: 0; /* Ensure the carousel touches the navbar */
+    }
+  </style>
+</head>
+<body>
+
+<!-- Carousel -->
+<div id="fullWidthCarousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://az-ci-cdn-prd-msds-01.azureedge.net/-/media/feature/maruti-driving-school/crousel-images/maruti_website_desktop-1920-x-410.jpg?rev=aa47610c9a824e90ae9fccbd102dc178" class="d-block w-100" alt="Slide 1">
+    </div>
+    <div class="carousel-item">
+      <img src="https://az-ci-cdn-prd-msds-01.azureedge.net/-/media/feature/maruti-driving-school/crousel-images/desktop-1920x410.jpg?rev=29214d62631643abb72e240cb545828b" class="d-block w-100" alt="Slide 2">
+    </div>
+    <div class="carousel-item">
+      <img src="https://az-ci-cdn-prd-msds-01.azureedge.net/-/media/feature/maruti-driving-school/crousel-images/slide2.jpg?rev=6a0af0d0a6344b0ca948fcc89b0a34f8" class="d-block w-100" alt="Slide 3">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#fullWidthCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#fullWidthCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<!-- Row with two columns -->
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-4">
+            <h2><strong>Why Choose Us?</strong></h2>
+            <p>Knowing how to drive a car is no longer a luxury, it's a necessity!</p>
+
+            <h3>22 00 000+<br><small>HAPPY STUDENTS</small></h3>
+            <p>We have successfully transformed 22 00 000+ beginners into skilled and confident drivers.</p>
+
+            <h3>2 100+<br><small>EXPERT TRAINERS</small></h3>
+            <p>Get driving training from our team of driving professionals that has 2 100+ expert male and female trainers.</p>
+
+            <h3>540+<br><small>TRAINING SCHOOLS</small></h3>
+            <p>We have made quality driving training accessible with our widespread network of 540+ Training Schools covering 260+ Cities.</p>
+        </div>
+        <div class="col-md-4">
+            <h3>Learn Theoretically. Apply Practically.</h3>
+            <p>Perfection comes with seamless integration of learning and application! Become a confident driver by getting theoretical and practical driving training at Maruti Suzuki Driving School.</p>
+            <a href="#" class="btn btn-primary">VIEW ALL</a>
+        </div>
+        <div class="col-md-4">
+            <h2>Mock Test Ad</h2>
+            <p>Sign up for our mock tests to get a feel of the real driving test. Practice makes perfect!</p>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
