@@ -17,6 +17,68 @@
     .navbar {
       margin-bottom: 0; /* Ensure the carousel touches the navbar */
     }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .mb-2 {
+        margin-bottom: 0.5rem;
+    }
+
+    /* .why-choose-us {
+      background: linear-gradient(to bottom, #000000, #ffffff);
+    } */
+
+    /* Custom CSS for Pricing Block */
+    .pricing-column {
+      border: 1px solid #ddd;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      background: linear-gradient(to bottom, #000000, #ffffff);
+    }
+
+    .pricing-column .price {
+      font-size: 32px;
+      font-weight: bold;
+      color: #000000;
+    }
+
+    .pricing-column h3 {
+      color: #fed136;
+    }
+
+    .pricing-column p {
+      color: #ffffff;
+    }
+
+    .pricing-column .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 10px;
+      background-color: #0a0a0a;
+      color: #fed136;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .pricing-column .button:hover {
+      background-color: #fed136;
+      color: #000000;
+    }
+
+    /* Custom CSS for horizontal boxes */
+    .box {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+      width: 100%; /* Ensure the box spans the full width */
+      font-weight: bold;
+    }
+
   </style>
 </head>
 <body>
@@ -44,37 +106,136 @@
   </a>
 </div>
 
-<!-- Row with two columns -->
-<div class="container mt-4">
-    <div class="row">
-        <div class="col-md-4">
-            <h2><strong>Why Choose Us?</strong></h2>
-            <p>Knowing how to drive a car is no longer a luxury, it's a necessity!</p>
+<!-- Why Choose Us?: Row with three columns -->
+<div class="container mt-4 text-center why-choose-us">
+  <h2><strong>Why Choose Us?</strong></h2>
+  <p>Knowing how to drive a car is no longer a luxury, it's a necessity!</p>
+  
+  <div class="row mt-4">
+      <div class="col-md-4">
+          <i class="fas fa-smile fa-3x mb-2"></i>
+          <h3><span class="counter" data-target="2200000">0</span>+<br><small>HAPPY STUDENTS</small></h3>
+          <p>We have successfully transformed 22 00 000+ beginners into skilled and confident drivers.</p>
+      </div>
+      <div class="col-md-4">
+          <i class="fas fa-chalkboard-teacher fa-3x mb-2"></i>
+          <h3><span class="counter" data-target="2100">0</span>+<br><small>EXPERT TRAINERS</small></h3>
+          <p>Get driving training from our team of driving professionals that has 2 100+ expert male and female trainers.</p>
+      </div>
+      <div class="col-md-4">
+          <i class="fas fa-school fa-3x mb-2"></i>
+          <h3><span class="counter" data-target="540">0</span>+<br><small>TRAINING SCHOOLS</small></h3>
+          <p>We have made quality driving training accessible with our widespread network of 540+ Training Schools covering 260+ Cities.</p>
+      </div>
+  </div>
+</div>
+<hr>
 
-            <h3>22 00 000+<br><small>HAPPY STUDENTS</small></h3>
-            <p>We have successfully transformed 22 00 000+ beginners into skilled and confident drivers.</p>
-
-            <h3>2 100+<br><small>EXPERT TRAINERS</small></h3>
-            <p>Get driving training from our team of driving professionals that has 2 100+ expert male and female trainers.</p>
-
-            <h3>540+<br><small>TRAINING SCHOOLS</small></h3>
-            <p>We have made quality driving training accessible with our widespread network of 540+ Training Schools covering 260+ Cities.</p>
+<div class="container mt-4 text-center">
+  <h2><strong>Our Courses</strong></h2>
+  <p>We offer flexible options, which you can adapt to the different needs.</p>
+  <div class="row text-left">
+    <div class="col-lg-4">
+      <div class="pricing-column">
+        <h3><strong>Two-wheeler Driving Training</strong></h3>
+        <p>Kickstart your driving journey with our two-wheeler driving training. Guaranted lisence! </p>
+        
+        <div class="d-flex flex-column align-items-start">
+          <div class="box mb-2 w-100">3 Theory Days</div>
+          <div class="box w-100">10 Practical Days</div>
         </div>
-        <div class="col-md-4">
-            <h3>Learn Theoretically. Apply Practically.</h3>
-            <p>Perfection comes with seamless integration of learning and application! Become a confident driver by getting theoretical and practical driving training at Maruti Suzuki Driving School.</p>
-            <a href="#" class="btn btn-primary">VIEW ALL</a>
-        </div>
-        <div class="col-md-4">
-            <h2>Mock Test Ad</h2>
-            <p>Sign up for our mock tests to get a feel of the real driving test. Practice makes perfect!</p>
-        </div>
+        <div class="price">₹3,500</div>
+        <a href="#" class="button">VIEW COURSE</a>
+      </div>
     </div>
+    <div class="col-lg-4">
+      <div class="pricing-column">
+        <h3><strong>Regular Driving Training</strong></h3>
+          <p>Master traffic rules and gain hands-on experience through simulators and on-road training.</p>
+          <div class="d-flex flex-column align-items-start">
+            <div class="box mb-2 w-100">6 Theory Days</div>
+            <div class="box w-100">15 Practical Days</div>
+          </div>
+          <div class="price">₹5,500</div>
+        <a href="#" class="button">VIEW COURSE</a>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="pricing-column">
+        <h3><strong>Professional Driving Training</strong></h3>
+        <p>What's more? you'll have the confidence of taking the RTO driving exam to obtain a permanent driving license.</p>
+        <div class="d-flex flex-column align-items-start">
+          <div class="box mb-2 w-100">3 Theory Days</div>
+          <div class="box w-100">30 Practical Days</div>
+        </div>
+        <div class="price">₹10,000</div>
+        <a href="#" class="button">VIEW COURSE</a>
+      </div>
+    </div>
+  </div>
 </div>
 
 <!-- Bootstrap JS and dependencies -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+      const counters = document.querySelectorAll('.counter');
+      const speed = 200; // The lower the slower
+  
+      counters.forEach(counter => {
+          const updateCount = () => {
+              const target = +counter.getAttribute('data-target');
+              const count = +counter.innerText;
+  
+              // Lower inc to slow and higher to slow
+              const inc = target / speed;
+  
+              // Check if target is reached
+              if (count < target) {
+                  // Add inc to count and output in counter
+                  counter.innerText = Math.ceil(count + inc);
+                  // Call function every ms
+                  setTimeout(updateCount, 1);
+              } else {
+                  counter.innerText = target;
+              }
+          };
+  
+          updateCount();
+      });
+  });
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+      const counters = document.querySelectorAll('.counter');
+      const speed = 200; // The lower the slower
+  
+      counters.forEach(counter => {
+          const updateCount = () => {
+              const target = +counter.getAttribute('data-target');
+              const count = +counter.innerText;
+  
+              // Lower inc to slow and higher to slow
+              const inc = target / speed;
+  
+              // Check if target is reached
+              if (count < target) {
+                  // Add inc to count and output in counter
+                  counter.innerText = Math.ceil(count + inc);
+                  // Call function every ms
+                  setTimeout(updateCount, 1);
+              } else {
+                  counter.innerText = target;
+              }
+          };
+          updateCount();
+      });
+  });
+</script>
+
 </body>
 </html>
