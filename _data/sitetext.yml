@@ -17,19 +17,38 @@ en: &DEFAULT_EN
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "Our Services"
+    text: "The <strong>\"Driving School\"</strong> is our flagship training program. We also
+           provide training in painting, dancing, and training associated with government projects (subject to change according to the ongoing projects)."
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Driving School"
+        desc: "We're awarded as the best driving school by the RTO! Learn more about our driving school."
+        icon: fa fa-car
+        link: "/driving/"
+      - title: "Activity Training"
+        desc: "Apart from driving, we provide training in dancing, painting and other activities."
+        icon: fa fa-paint-brush
+        link: "#activity"
+      # - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+      - title: "Govt. Projects"
+        desc: "We also provide various vocational trainings associated with ongoing government projects."
+        icon: fa fa-university
+        link: "#govt"
+
+  activity:
+    title: "Activity Training"
+    text: "our story"
+    body: "Beyond driving, we offer a comprehensive range of courses, including dance and painting. Expand your skills and explore new passions while learning to drive in just 21 days."
+    section: activity
+    image: assets/img/activity.png
+
+  govt:
+    title: "Govt. Projects"
+    text: "our story"
+    body: "Activity section"
+    section: govt
+    image: assets/img/govt.png
 
   portfolio:
     title: "Portfolio"
